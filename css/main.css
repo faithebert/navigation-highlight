@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+  background-color: #ffe500;
+  line-height: 1.5;
+  font-family: Georgia, serif;
+  color: black;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2 {
+font-family: 'Sigmar One', sans-serif;
+color: #b20953;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+
+}
