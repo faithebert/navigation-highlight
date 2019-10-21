@@ -9,15 +9,47 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+.heading {
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 1.875rem;
+}
 
 h1, h2 {
 font-family: 'Sigmar One', sans-serif;
 color: #b20953;
 }
 
-ul li {
+ul {
+  padding: 0;
+  margin: .3em;
+}
+nav ul li {
   display: inline-block;
-  text-decoration: none;
-  color: white;
+  background-color: #b2a212;
+  padding: .2em .5em .3em;
+  border-radius: 4px;
+}
 
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.content {
+  background-color: #fff;
+  display: inline-block;
+  padding: 0 .75em;
+}
+
+footer {
+  font-size: .75rem;
+  text-align: center;
+  padding: .75em;
 }
