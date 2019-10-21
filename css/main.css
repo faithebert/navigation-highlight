@@ -32,25 +32,33 @@ color: #b20953;
 
 ul {
   padding: 0;
-  margin: .3em;
 }
 nav ul li {
   display: inline-block;
-  background-color: #b2a212;
-  padding: .2em .5em .3em;
-  border-radius: 4px;
+  margin-bottom: .3em;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  background-color: #b2a212;
+  padding: .75em;
+  border-radius: 4px;
 }
 
+nav a:hover {
+  background-color: #cc1465;
+}
+
+.current {
+  background-color: #b20953;
+}
 .content {
   background-color: #fff;
   display: inline-block;
   padding: 0 .75em;
   margin: 0;
+  margin-bottom: .3em;
 }
 
 footer {
