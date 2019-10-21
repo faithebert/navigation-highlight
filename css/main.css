@@ -9,6 +9,10 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body {
+  margin: 0;
+}
+
 .heading {
   text-align: center;
 }
@@ -46,6 +50,7 @@ nav a {
   background-color: #fff;
   display: inline-block;
   padding: 0 .75em;
+  margin: 0;
 }
 
 footer {
