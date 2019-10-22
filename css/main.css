@@ -9,11 +9,14 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
 img {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  display: block;
 }
+
 body {
   margin: 0;
 }
@@ -21,6 +24,7 @@ body {
 header {
   text-align: center;
 }
+
 h1 {
   font-size: 3rem;
   margin: 0;
@@ -31,13 +35,14 @@ h2 {
 }
 
 h1, h2 {
-font-family: 'Sigmar One', sans-serif;
-color: #b20953;
+  font-family: "Sigmar On", sans-serif;
+  color: #b20953;
 }
 
 ul {
   padding: 0;
 }
+
 nav ul li {
   display: inline-block;
   margin-bottom: .3em;
@@ -58,6 +63,7 @@ nav a:hover {
 .current {
   background-color: #b20953;
 }
+
 main {
   background-color: #fff;
   display: inline-block;
